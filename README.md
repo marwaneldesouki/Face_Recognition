@@ -10,9 +10,13 @@
 
 ## Libraries used
 •	cv2
+
 •	face_recognition
+
 •	os
+
 •	numpy 
+
 •	PIL
 
 ## Requirements
