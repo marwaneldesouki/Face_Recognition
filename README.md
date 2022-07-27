@@ -6,7 +6,7 @@
 
 ## DataSet used
 -	There is a script(data_set_maker) to make dataset By taking 10 images to the person from the camera and name folder to name of the person to make it unique.
-* ![data](https://user-images.githubusercontent.com/37198610/181280778-a3ed9bdd-184a-4ebd-b92c-00173ffb78f3.png)
+ ![data](https://user-images.githubusercontent.com/37198610/181280778-a3ed9bdd-184a-4ebd-b92c-00173ffb78f3.png)
 
 ## Libraries used
 •	cv2
