@@ -52,10 +52,10 @@ def findEncoding(images) :
     return imgEncodings
 
 EncodeList = findEncoding(personsImg)
-# vid = cv2.VideoCapture(0)
+# vid = cv2.VideoCapture(0) #-uncomment to enable video capture
 while True :
-    # success, frame =vid.read()
-    frame = np.array(ImageGrab.grab(bbox=(0,40,1500,1500)))
+    # success, frame =vid.read() #-uncomment to enable video capture
+    frame = np.array(ImageGrab.grab(bbox=(0,40,1500,1500))) #comment to disable screen capture
     frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
     Smaller_frames = cv2.resize(frame, (0,0), None, 0.25, 0.25)
     facesInFrame = face_rec.face_locations(Smaller_frames)
