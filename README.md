@@ -20,13 +20,13 @@
 
 ## How it work ?
 •	at first the (data_set_maker) script open the camera and take 10 images to the person and automatic crop the image to the face only
-* ![image](https://user-images.githubusercontent.com/37198610/181282326-a96a8d76-e758-4e26-bb1c-d09b494cd223.png)
+ ![image](https://user-images.githubusercontent.com/37198610/181282326-a96a8d76-e758-4e26-bb1c-d09b494cd223.png)
 
 •	Then the (main) script Find and manipulate facial features in pictures Get the locations and outlines of each person’s eyes, nose, mouth and chin.
-* ![image](https://user-images.githubusercontent.com/37198610/181284463-d038d828-b857-40d7-bed9-bccb966cd4ba.png)
+ ![image](https://user-images.githubusercontent.com/37198610/181284463-d038d828-b857-40d7-bed9-bccb966cd4ba.png)
 
 •	Then eyes, nose, mouth and chin it`s called futures so the futures are taken to compare it with other futures to every person in dataset ,and when it match then it can recognize the face in image.
-* ![image](https://user-images.githubusercontent.com/37198610/181284617-dae03a9e-1fd7-41a3-81b6-fcceb4018db6.png)
+ ![image](https://user-images.githubusercontent.com/37198610/181284617-dae03a9e-1fd7-41a3-81b6-fcceb4018db6.png)
 
 
 
